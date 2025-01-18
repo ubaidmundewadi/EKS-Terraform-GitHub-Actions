@@ -20,10 +20,10 @@ eks-sg                = "eks-sg"
 # EKS
 is-eks-cluster-enabled     = true
 cluster-version            = "1.30"
-cluster-name               = "eks-cluster"
+cluster-name               = "mern-eks-cluster"
 endpoint-private-access    = true
 endpoint-public-access     = false
-ondemand_instance_types    = ["t3a.medium"]
+ondemand_instance_types    = ["t3.medium"]
 spot_instance_types        = ["c5a.large", "c5a.xlarge", "m5a.large", "m5a.xlarge", "c5.large", "m5.large", "t3a.large", "t3a.xlarge", "t3a.medium"]
 desired_capacity_on_demand = "1"
 min_capacity_on_demand     = "1"
